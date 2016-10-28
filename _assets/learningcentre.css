@@ -1,0 +1,167 @@
+h1 {
+    font-size: 350%;
+    font-weight: 400;
+    line-height: 130%;
+    margin-bottom: 5%;
+}
+
+h2 {
+    font-size: 250%;
+    font-weight: 400;
+    line-height: 130%;
+    margin-bottom: 1%;
+}
+
+h3 {
+    font-size: 180%;
+    line-height: 180%;
+    font-weight: 400;
+    margin-bottom: 5%;
+}
+
+img {
+    height: auto;
+    max-width: 100% !important;
+    vertical-align: middle;
+}
+
+.full-width-container {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+#container {
+    padding-top: 0px !important;
+}
+
+.expand {}
+
+#content {
+    margin: 0;
+    padding: 0;
+}
+
+.overlay {
+    display: block;
+    position: relative;
+    background-color: rgba(12, 35, 68, .8);
+    height: 100%;
+    width: 100%;
+}
+
+.overlay:hover {
+    transition: background-color 0.2s ease;
+    background-color: rgba(12, 35, 68, 0);
+}
+
+.center-box {
+    position: absolute;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+.span12 {
+    margin-bottom: 30px;
+}
+
+.flexslider {
+    display: none;
+}
+
+.header-text {
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    bottom: 0;
+    color: white;
+    margin-bottom: 3%;
+}
+
+.large-intro {
+    font-size: 400%;
+    line-height: 150%;
+   
+}
+
+.image-region {
+    position: relative;
+}
+
+.image-gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    max-width: 1920px;
+    background: none;
+    background: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.3));
+    background: -o-linear-gradient(transparent, rgba(0, 0, 0, 0.3));
+    background: -moz-linear-gradient(transparent, rgba(0, 0, 0, 0.3));
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.3));
+}
+
+@media screen and (max-width: 979px) {
+    #container {
+        padding-top: 0px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .header-text {
+        position: absolute;
+        text-align: left;
+        width: 100%;
+        bottom: 0;
+        color: white;
+        margin-bottom: 3%;
+        font-size: 80%;
+        line-height: 50%;
+    }
+    .large-intro {
+        font-size: 100%;
+        line-height: 50%;
+    }
+}
+
+.box-name {
+    color: white;
+    text-align: center;
+}
+
+.box {
+    background-size: cover;
+    height: 300px;
+}
+
+#instruction {
+    background-image: url(http://lfs-ps.sites.olt.ubc.ca/files/2016/10/21352299053_f298e90871_z.jpg);
+}
+#computer {
+    background-image: url(http://lfs-ps.sites.olt.ubc.ca/files/2016/10/21352299053_f298e90871_z.jpg);
+}
+#web {
+    background-image: url(http://lfs-ps.sites.olt.ubc.ca/files/2016/10/21352299053_f298e90871_z.jpg);
+}
+#data {
+    background-image: url(http://lfs-ps.sites.olt.ubc.ca/files/2016/10/21352299053_f298e90871_z.jpg);
+}
+#consultation{
+    background-image: url(http://lfs-ps.sites.olt.ubc.ca/files/2016/10/21352299053_f298e90871_z.jpg);
+}
+#training {
+    background-image: url(http://lfs-ps.sites.olt.ubc.ca/files/2016/10/21352299053_f298e90871_z.jpg);
+}
+#audio {
+    background-image: url(http://lfs-ps.sites.olt.ubc.ca/files/2016/10/21352299053_f298e90871_z.jpg);
+}
+#photography {
+    background-image: url(http://lfs-ps.sites.olt.ubc.ca/files/2016/10/21352299053_f298e90871_z.jpg);
+}
+#course {
+    background-image: url(http://lfs-ps.sites.olt.ubc.ca/files/2016/10/21352299053_f298e90871_z.jpg);
+}
+#threemin {
+    background-image: url(http://lfs-ps.sites.olt.ubc.ca/files/2016/10/21352299053_f298e90871_z.jpg);
+}

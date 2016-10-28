@@ -1,0 +1,31 @@
+.image-wrapper {
+    height:50%;
+    display:block;
+}
+
+.text-wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 50%;
+}
+
+img {
+    height: 250px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.span3 {
+    background-color: #f7f7f7;
+}
+
+.row-people {
+    margin-bottom: 20px;
+}
+
+#content {
+    margin: 0;
+    padding: 0;
+}
+
+
