@@ -4,3 +4,25 @@
 #imac {
     background-image: url("");
 }
+.center-box {
+    position: absolute;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+.box-name {
+    color: white;
+    text-align: center;
+}
+
+.box {
+    background-size: cover;
+    height: 250px;
+}
+
+@media screen and (max-width: 979px) {
+    .box {
+        height: 150px;
+    }
+}
