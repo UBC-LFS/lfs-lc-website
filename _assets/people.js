@@ -1,6 +1,4 @@
-jQuery(document).ready(function ($) {
-    //$("#container").prepend($("#main-content"));
-    $("div[role='main']").prepend($("#main-content"));
-    $("#main-content").prepend($("#content"));
-    $("#main-content").prepend($(".breadcrumb"));
+jQuery(document).ready(function ($) { 
+    var arrow = '<div class="ubc7-arrow down-arrow accordion-arrow"></div>'        
+    $(".accordion-toggle").append(arrow);
 });

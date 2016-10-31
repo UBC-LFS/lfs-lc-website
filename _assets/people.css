@@ -15,7 +15,7 @@ img {
     width: 100%;
 }
 
-.span3 {
+.span4 {
     background-color: #f7f7f7;
 }
 
@@ -23,9 +23,13 @@ img {
     margin-bottom: 20px;
 }
 
-#content {
-    margin: 0;
-    padding: 0;
+.accordion-arrow {
+    float: right;
+    margin-right: -4px;
+    margin-top: 4px;
 }
 
+.member-intro {
+    height: 70px;
+}
 
