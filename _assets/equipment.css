@@ -2,7 +2,7 @@
     background-image: url("");
 }
 #imac {
-    background-image: url("");
+    background-image: url("http://lfslc.sites.olt.ubc.ca/files/2016/10/both-imacs.jpg");
 }
 .center-box {
     position: absolute;
@@ -25,4 +25,17 @@
     .box {
         height: 150px;
     }
+}
+
+.overlay {
+    display: block;
+    position: relative;
+    background-color: rgba(12, 35, 68, .85);
+    height: 100%;
+    width: 100%;
+}
+
+.overlay:hover {
+    transition: background-color 0.2s ease;
+    background-color: rgba(12, 35, 68, 0);
 }
