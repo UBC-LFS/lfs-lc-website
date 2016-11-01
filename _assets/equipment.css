@@ -1,11 +1,3 @@
-.center-text {
-    position: absolute;
-    display: block;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-}
-
 .box {
     height: 250px;
     background-size: contain;
@@ -18,23 +10,9 @@
     filter: alpha(opacity=50);
 }
 
-#imac {
-    background-image: url("http://lfslc.sites.olt.ubc.ca/files/2016/10/both-imacs.jpg");
-}
-
-#pc {
-    background-image: url("http://lfslc.sites.olt.ubc.ca/files/2016/11/vibox_spawn_x_gaming_pc_review_thumb800.jpg");
-}
-
-#programs {
-    background-image: url("http://lfslc.sites.olt.ubc.ca/files/2016/11/adobe.png");
-}
-
-@media screen and (max-width: 979px) {
-    .box {
-        height: 150px;
-    }
-}
+/*@media screen and (max-width: 979px) {
+    
+}*/
 @media screen and (max-width: 767px) {
    .span12 {
         margin-bottom: 0;
@@ -42,11 +20,68 @@
 }
 @media screen and (max-width: 480px) {
     .box {
-        height: 120px;
+        height: 200px;
     }   
 }
 @media screen and (max-width: 300px) {
     .box {
-        height: 70px;
+        height: 150px;
     }   
+}
+#imac {
+    background-image: url("http://lfslc.sites.olt.ubc.ca/files/2016/10/both-imacs.jpg");
+}
+#pc {
+    background-image: url("http://lfslc.sites.olt.ubc.ca/files/2016/11/vibox_spawn_x_gaming_pc_review_thumb800.jpg");
+}
+#programs {
+    background-image: url("http://lfslc.sites.olt.ubc.ca/files/2016/11/adobe.png");
+}
+#canons3 {
+    background-image: url("http://lfslc.sites.olt.ubc.ca/files/2016/11/3989-CanonS3IS3quart.jpg");
+}
+#canonsd630 {
+    background-image: url("http://lfslc.sites.olt.ubc.ca/files/2016/11/front_big.jpg");
+}
+#dmc-g1 {
+    background-image: url("http://lfslc.sites.olt.ubc.ca/files/2016/11/199826-panasonic-lumix-dmc-g1-front.jpg");
+}
+#hcv720 {
+    background-image: url("http://lfslc.sites.olt.ubc.ca/files/2016/11/409422-panasonic-hc-v720.jpg");
+}
+#hdd {
+    background-image: url("http://lfslc.sites.olt.ubc.ca/files/2016/11/32517162-2-440-OVR-1.gif");
+}
+#portablespeaker {
+    background-image: url("http://lfslc.sites.olt.ubc.ca/files/2016/11/pallead-2.jpg");
+}
+#mic {
+    background-image: url("http://lfslc.sites.olt.ubc.ca/files/2016/11/515xnBQPYOL.jpg");
+}
+#handmic {
+    background-image: url("http://lfslc.sites.olt.ubc.ca/files/2016/11/r-09hr_angle_gal.jpg");
+}
+#speaker {
+    background-image: url("http://lfslc.sites.olt.ubc.ca/files/2016/11/stagepas300.jpg");
+}
+#lav {
+    background-image: url("http://lfslc.sites.olt.ubc.ca/files/2016/11/Sennheiser_EW_112P_G3_A_EW112_p_G3_Camera_Mount_618739.jpg");
+}
+#epson760 {
+    background-image: url();
+}
+#epson1760 {
+    background-image: url();
+}
+#benq {
+    background-image: url();
+}
+#ipad {
+    background-image: url();
+}
+#android {
+    background-image: url();
+}
+#acer {
+    background-image: url();
 }
