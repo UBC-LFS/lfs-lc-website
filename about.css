@@ -22,6 +22,7 @@ img {
     height: auto;
     max-width: 100% !important;
     vertical-align: middle;
+    width: 100%;
 }
 
 .full-width-container {
@@ -36,4 +37,20 @@ img {
 #content {
     margin: 0;
     padding: 0;
+}
+
+.image-region {
+    position: relative;
+   margin-right: -15px;
+}
+
+
+@media screen and (max-width: 979px) {
+    #container {
+        padding-top: 0px !important;
+    }
+    .image-region {
+    	margin-left: -20px;
+    	margin-right: -20px;
+    }
 }
