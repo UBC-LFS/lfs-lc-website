@@ -3,5 +3,4 @@ jQuery(document).ready(function ($) {
     $("div[role='main']").prepend($("#main-content"));
     $("#main-content").prepend($("#content"));
     $("#container").prepend($(".image-region"));
- 
 });
