@@ -108,6 +108,14 @@ img {
     }
 }
 
+.border-bottom {
+    border-bottom: 1px solid #b2c6d3;
+}
+
 h1.page-title {
     display: none;
+}
+
+p {
+    font-size: 120%;
 }
