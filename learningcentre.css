@@ -27,14 +27,11 @@ img {
 
 .full-width-container {
     margin-left: 0px !important;
-    padding-right: 0px !important;
 }
 
 #container {
     padding-top: 0px !important;
 }
-
-.expand {}
 
 #content {
     margin: 0;
@@ -90,25 +87,13 @@ img {
    margin-right: -15px;
 }
 
-.image-gradient {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    max-width: 1920px;
-    background: none;
-    background: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.3));
-    background: -o-linear-gradient(transparent, rgba(0, 0, 0, 0.3));
-    background: -moz-linear-gradient(transparent, rgba(0, 0, 0, 0.3));
-    background: linear-gradient(transparent, rgba(0, 0, 0, 0.3));
-}
-
 @media screen and (max-width: 979px) {
     #container {
         padding-top: 0px !important;
-        padding-left: 0px !important;
-        padding-right: 0px !important;
+    }
+    .image-region {
+    	margin-left: -20px;
+    	margin-right: -20px;
     }
     .header-text {
         position: absolute;
@@ -121,18 +106,47 @@ img {
         line-height: 50%;
     }
     .large-intro {
-        font-size: 100%;
-        line-height: 50%;
+        font-size: 300%;
+        line-height: 75%;
+        padding-left: 80px;
     }
     .box {
         height: 150px;
     }
-    
-    .span12{
+}
+@media screen and (max-width: 767px) {
+    .large-intro {
+        font-size: 200%;
+        line-height: 75%;
+        padding-left: 40px;
+    }
+   .span12 {
         margin-bottom: 0;
     }
 }
+@media screen and (max-width: 480px) {
+    .large-intro {
+        font-size: 150%;
+        line-height: 75%;
+        padding-left: 20px;
+    }
+    .box {
+        height: 120px;
+    }
+    
+}
 
+@media screen and (max-width: 300px) {
+    .large-intro {
+        font-size: 110%;
+        line-height: 50%;
+        padding-left: 15px;
+    }
+    .box {
+        height: 70px;
+    }
+    
+}
 .box-name {
     color: white;
     text-align: center;
