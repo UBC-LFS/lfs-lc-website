@@ -1,3 +1,4 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <div class="image-region no-padding">
     <div class="image-gradient"></div> <img style="width:100%;" id="banner" src="http://lfslc.sites.olt.ubc.ca/files/2016/11/hands-coffee-cup-apple-1.jpg" alt="Contact Us Banner" />
     <div class="header-text">
@@ -8,6 +9,13 @@
         </div>
     </div>
 </div>
+<div id="main-content" class="container"></div>
+<script>
+$("div[role='main']").prepend($("#main-content"));
+$("#main-content").prepend($("#content"));
+$("#main-content").prepend($(".breadcrumb"));
+$("#container").prepend($(".image-region"));
+</script>
 <div class="border-bottom">
 <h3>Whether you have an idea that needs fleshing out or a fully formed plan ready for implementation, we're here to help you succeed.</h3>
 </div>
