@@ -24,20 +24,16 @@ img {
     max-width: 100% !important;
     vertical-align: middle;
 }
-
 .full-width-container {
     margin-left: 0px !important;
 }
-
 #container {
     padding-top: 0px !important;
 }
-
 #content {
     margin: 0;
     padding: 0;
 }
-
 .overlay {
     display: block;
     position: relative;
@@ -45,12 +41,10 @@ img {
     height: 100%;
     width: 100%;
 }
-
 .overlay:hover {
     transition: background-color 0.2s ease;
     background-color: rgba(12, 35, 68, 0);
 }
-
 .center-box {
     position: absolute;
     display: block;
@@ -58,15 +52,12 @@ img {
     transform: translateY(-50%);
     width: 100%;
 }
-
 .span12 {
     margin-bottom: 30px;
 }
-
 .flexslider {
     display: none;
 }
-
 .header-text {
     position: absolute;
     text-align: left;
@@ -75,18 +66,14 @@ img {
     color: white;
     margin-bottom: 3%;
 }
-
 .large-intro {
     font-size: 400%;
     line-height: 150%;
-   
 }
-
 .image-region {
     position: relative;
-   margin-right: -15px;
+    margin-right: -15px;
 }
-
 @media screen and (max-width: 979px) {
     .box {
         height: 150px;
@@ -100,26 +87,21 @@ img {
 @media screen and (max-width: 480px) {
     .box {
         height: 120px;
-    }
-    
+    }   
 }
-
 @media screen and (max-width: 300px) {
     .box {
         height: 70px;
     }
-    
 }
 .box-name {
     color: white;
     text-align: center;
 }
-
 .box {
     background-size: cover;
     height: 250px;
 }
-
 #instruction {
     background-image: url(http://lfs-ps.sites.olt.ubc.ca/files/2016/10/21352299053_f298e90871_z.jpg);
 }
