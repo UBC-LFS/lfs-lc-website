@@ -4,14 +4,12 @@ h1 {
     line-height: 130%;
     margin-bottom: 5%;
 }
-
 h2 {
     font-size: 250%;
     font-weight: 400;
     line-height: 130%;
     margin-bottom: 1%;
 }
-
 h3 {
     font-size: 180%;
     line-height: 180%;
@@ -24,27 +22,22 @@ img {
     vertical-align: middle;
     width: 100%;
 }
-
 .full-width-container {
     margin-left: 0px !important;
-    margin-right: 0px !important;
 }
-
 #container {
     padding-top: 0px !important;
 }
-
 #content {
-    margin: 0;
-    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1170px;
+    float: none;
 }
-
 .image-region {
     position: relative;
    margin-right: -15px;
 }
-
-
 .header-text {
     position: absolute;
     text-align: left;
@@ -53,32 +46,26 @@ img {
     color: white;
     margin-bottom: 3%;
 }
-
 .large-intro {
     font-size: 400%;
-    line-height: 150%;
-   
+    line-height: 150%;  
 }
-
 .image-region {
     position: relative;
    margin-right: -15px;
 }
-
 .image-gradient {
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    max-width: 1920px;
     background: none;
     background: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.3));
     background: -o-linear-gradient(transparent, rgba(0, 0, 0, 0.3));
     background: -moz-linear-gradient(transparent, rgba(0, 0, 0, 0.3));
     background: linear-gradient(transparent, rgba(0, 0, 0, 0.3));
 }
-
 @media screen and (max-width: 979px) {
     #container {
         padding-top: 0px !important;
@@ -101,13 +88,11 @@ img {
     }
     .box {
         height: 150px;
-    }
-    
+    }   
     .span12{
         margin-bottom: 0;
     }
 }
-
 h1.page-title {
     display: none;
 }
