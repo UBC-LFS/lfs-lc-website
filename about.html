@@ -1,14 +1,24 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <div class="image-region no-padding">
-    <div class="image-gradient"></div><img id="banner" src="http://lfslc.sites.olt.ubc.ca/files/2016/10/20089902805_54de9445b3_k.jpg" />
-    <div class="header-text">
-        <div class="bound container">
-            <div class="message">
-                <p class="large-intro">About Us</p>
-            </div>
-        </div>
-    </div>
-</div>
+<div class="image-gradient"></div>
+<img id="banner" src="http://lfslc.sites.olt.ubc.ca/files/2016/10/20089902805_54de9445b3_k.jpg" />
+<div class="header-text">
+<div class="bound container">
+<div class="message">
+<p class="large-intro">About Us</p>
 
+</div>
+</div>
+</div>
+</div>
+<div id="main-content" class="container"></div>
+<script>
+$("div[role='main']").prepend($("#main-content"));
+$("#main-content").prepend($("#content"));
+$("#main-content").prepend($(".breadcrumb"));
+$("#container").prepend($(".image-region"));
+</script>
 <h3>The LFS Learning Centre promotes excellence...</h3>
 
-<div id="main-content" class="container"></div>
+<h2>History</h2>
+<iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1peIooPQJoQ2PBTJZrlo2MsmaHT1DVK0STNpvPj3UoSU&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
