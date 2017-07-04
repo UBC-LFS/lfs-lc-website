@@ -32,4 +32,6 @@ img {
 .member-intro {
     height: 70px;
 }
-
+.page-title {
+    display:none;
+}
