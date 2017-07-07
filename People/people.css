@@ -1,3 +1,10 @@
+h3 {
+  text-align: center; 
+}
+p {
+ text-align: center; 
+}
+
 .image-wrapper {
     height:50%;
     display:block;
