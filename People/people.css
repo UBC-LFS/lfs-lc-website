@@ -13,15 +13,13 @@ p {
     padding-left: 10px;
     padding-right: 10px;
     height: 50%;
+    background-color: #f7f7f7;
 }
 
 img {
     object-fit: cover;
     width: 100%;
-}
-
-.span4 {
-    background-color: #f7f7f7;
+    border-radius: 25px
 }
 
 .row-people {
