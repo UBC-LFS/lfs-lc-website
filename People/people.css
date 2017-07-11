@@ -6,7 +6,6 @@ p {
 }
 
 .image-wrapper {
-    height:50%;
     display:block;
 }
 
@@ -17,7 +16,6 @@ p {
 }
 
 img {
-    height: 250px;
     object-fit: cover;
     width: 100%;
 }
