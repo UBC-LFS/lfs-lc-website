@@ -1,0 +1,102 @@
+.overlay {
+    display: block;
+    position: relative;
+    background-color: rgba(12, 35, 68, .8);
+    height: 100%;
+    width: 100%;
+}
+.overlay:hover {
+    transition: background-color 0.2s ease;
+    background-color: rgba(12, 35, 68, 0);
+}
+.center-box {
+    position: absolute;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+.span12 {
+    margin-bottom: 30px;
+}
+.flexslider {
+    display: none;
+}
+.header-text {
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    bottom: 0;
+    color: white;
+    margin-bottom: 3%;
+}
+.large-intro {
+    font-size: 400%;
+    line-height: 150%;
+}
+.image-region {
+    position: relative;
+    margin-right: -15px;
+}
+@media screen and (max-width: 979px) {
+    .box {
+        height: 150px;
+    }
+}
+@media screen and (max-width: 767px) {
+   .span12 {
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 480px) {
+    .box {
+        height: 120px;
+    }   
+}
+@media screen and (max-width: 300px) {
+    .box {
+        height: 70px;
+    }
+}
+.box-name {
+    color: white;
+    text-align: center;
+}
+.box {
+    background-size: cover;
+    height: 250px;
+}
+#instruction {
+    background-image: url(http://lfs-ps.sites.olt.ubc.ca/files/2016/10/21352299053_f298e90871_z.jpg);
+}
+#computer {
+    background-image: url(http://lfs-ps.sites.olt.ubc.ca/files/2016/10/21352299053_f298e90871_z.jpg);
+}
+#web {
+    background-image: url(http://lfslc.sites.olt.ubc.ca/files/2016/10/web.jpg);
+}
+#data {
+    background-image: url(http://lfslc.sites.olt.ubc.ca/files/2016/10/data.jpg);
+}
+#consultation{
+    background-image: url(http://lfslc.sites.olt.ubc.ca/files/2016/10/21351453703_131a1cd348_o-2.jpg);
+}
+#training {
+    background-image: url(http://lfs-ps.sites.olt.ubc.ca/files/2016/10/21352299053_f298e90871_z.jpg);
+}
+#audio {
+    background-image: url(http://lfslc.sites.olt.ubc.ca/files/2016/10/4420161991_b713de163f_o-2.jpg);
+}
+#photography {
+    background-image: url(http://lfslc.sites.olt.ubc.ca/files/2016/10/28927739543_85e2d444bb_o-2.jpg);
+}
+#course {
+    background-image: url(http://lfs-ps.sites.olt.ubc.ca/files/2016/10/21352299053_f298e90871_z.jpg);
+}
+#threemin {
+    background-image: url(http://lfs-ps.sites.olt.ubc.ca/files/2016/10/21352299053_f298e90871_z.jpg);
+}
+
+#twitter-widget-0 {
+    height: 750px !important; 
+}
