@@ -1,5 +1,5 @@
 <div class="image-region no-padding">
-    <div class="image-gradient"></div> <img style="width:100%;" id="banner" src="http://lfslc.sites.olt.ubc.ca/files/2017/07/banner.jpg" alt="Learning Centre Banner" />
+    <div class="image-gradient"></div> <img style="width:100%;" id="banner" src="http://lfslc.sites.olt.ubc.ca/files/2017/11/LFSLC-Banner-1.jpg" alt="Learning Centre Banner" />
     <div class="header-text">
         <div class="bound container">
             <div class="message">
@@ -21,39 +21,38 @@
     getContainer.insertBefore(getImageRegion, getContainer.childNodes[0]);
 </script>
 <h2>What We Do</h2>
-<h3>The Learning Centre offers a variety of resources to help students, instructors, faculty, and staff within The Faculty of Land and Food Systems achieve excellence in learning and teaching. The Learning Centre provides support and training on pedagogy, learning, classroom techniques, communication, and learning technologies that allow individuals to take risks, innovate, and try new things in their teaching and research.</h3>
+<h3>The Learning Centre (LFSLC) offers a variety of resources to help students, instructors, faculty, and staff within The Faculty of Land and Food Systems achieve excellence in learning and teaching. Our mission is to enable all LFS constituents to reach their learning and teaching, communication and research goals enhanced by technology.  The Learning Centre provides support and training on pedagogy, learning, classroom techniques, communication, and technologies that allow individuals to take risks, innovate, and try new things in their teaching and research.</h3>
 <div class="row-fluid">
-    <div class="span4 box" id="computer">
+    <div class="span6 box" id="computer">
         <a class="overlay" href="http://lfslc.sites.olt.ubc.ca/services/computer-support/"> <span class="center-box">
              <h3 class="box-name"> Computer Support </h3>
           </span> </a>
     </div>
-    <div class="span4 box" id="audio">
-        <a class="overlay" href="http://lfslc.sites.olt.ubc.ca/services/digital-media/"> <span class="center-box">
-             <h3 class="box-name"> Digital Media </h3>
+    <div class="span6 box" id="audio">
+        <a class="overlay" href="http://lc.landfood.ubc.ca/services/communication/"> <span class="center-box">
+             <h3 class="box-name"> Communication </h3>
           </span> </a>
     </div>
-    <div class="span4 box" id="instruction">
+</div>
+<div class="row-fluid">
+    <div class="span6 box" id="instruction">
         <a class="overlay" href="http://lfslc.sites.olt.ubc.ca/services/instructional-support/"> 
             <span class="center-box">
                 <h3 class="box-name"> Instructional Support </h3>
             </span> 
         </a>
     </div>
-</div>
-<div class="row-fluid">
-    <div class="span4 box" id="training">
+    <div class="span6 box" id="training">
         <a class="overlay" href="http://lfslc.sites.olt.ubc.ca/services/training-and-workshops/"> <span class="center-box">
             <h3 class="box-name"> Training &amp; Workshops </h3>
          </span> </a>
     </div>
-    <div class="span4 box" id="web">
-        <a class="overlay" href="http://lfslc.sites.olt.ubc.ca/services/web-support/"> <span class="center-box">
-              <h3 class="box-name"> Web Support </h3>
-           </span> </a>
-    </div>
 </div>
-<h2>Booking</h2>
+<h2>Annoucements</h2>
+[loop query="posts_per_page=7&amp;category_name=homepage-announcement"]
+<h3>[link_with_content]</h3>
+<p>[the_excerpt]</p>
+[/loop]
 <h2>Connect with Us</h2>
 <div class="span12">
     <div class="span6">
