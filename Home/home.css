@@ -2,10 +2,25 @@
     display: none;
 }
 
+#intro-background {
+    position: relative;
+}
+
 #intro-picture {
     width: 100%;
     height: auto;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+#intro-textbox {
+    background-color: #FFFFFF;
+    width: 45%;
+    height: 25%;
+    position: absolute;
+    opacity: 0.8; 
+    top: 60%;
+    left: 0%;
+    z-index: 1;
 }
