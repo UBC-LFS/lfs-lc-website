@@ -8,7 +8,7 @@
 
 #intro-picture {
     width: 100%;
-    height: auto;
+    height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -23,4 +23,29 @@
     top: 60%;
     left: 0%;
     z-index: 1;
+}
+
+#two-box-div {
+    height: 300px;
+    background-color: aquamarine;
+    margin: auto;
+    margin-top: 30px;
+    width: 96%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.two-box {
+    width: 50%;
+}
+
+#left-two-box {
+    background-color:cadetblue;
+}
+
+#right-two-box {
+    background-color: blueviolet;
 }
