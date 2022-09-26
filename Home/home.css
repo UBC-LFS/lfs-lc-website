@@ -2,6 +2,14 @@
     display: none;
 }
 
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.025);
+}
+
 #intro-background {
     position: relative;
 }
@@ -9,6 +17,7 @@
 #intro-picture {
     width: 100%;
     height: 500px;
+    object-fit: cover;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -16,10 +25,10 @@
 
 #intro-textbox {
     background-color: #FFFFFF;
-    width: 45%;
+    width: 50%;
     height: 25%;
     position: absolute;
-    opacity: 0.8;
+    opacity: 1;
     top: 60%;
     left: 0%;
     z-index: 1;
@@ -46,15 +55,17 @@
 }
 
 #left-two-box {
-    background-color: #5796B1;
+    background-image: linear-gradient(to top, rgba(23, 43, 56, 0.6), rgba(23, 43, 56, 0.7)), url(https://lfslc.sites.olt.ubc.ca/files/2022/09/christin-hume-Hcfwew744z4-unsplash.jpg);
+    background-size: cover;
 }
 
 #right-two-box {
-    background-color: #5796B1;
+    background-image: linear-gradient(to top, rgba(23, 43, 56, 0.6), rgba(23, 43, 56, 0.7)), url(https://lfslc.sites.olt.ubc.ca/files/2022/09/lauren-mancke-aOC7TSLb1o8-unsplash.jpg);
+    background-size: cover;
 }
 
 .intro-text {
-    padding-left: 15px;
+    padding-left: 5%;
     word-wrap: normal;
 }
 
@@ -68,5 +79,81 @@
 
 .text-center {
     text-align: center;
+}
 
+.front-page-sub {
+    color: #FFF;
+    margin-top: 12%;
+}
+
+.tb-button {
+    margin-top: 1.5%;
+    margin-left: 44%;
+    background-color: #FFF;
+    border: none;
+    padding: 12px 20px;
+}
+
+.tb-button:hover {
+    transition: 0.4s;
+    background-color: #ACD0E3;
+}
+
+#four-box-div {
+    height: 400px;
+}
+
+.four-box {
+    background-color: #ACD0E3;
+    width: 24.5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.fb-gap {
+    width: 1%;
+}
+
+#first-box {
+    background: url(https://lfslc.sites.olt.ubc.ca/files/2022/09/headway-5QgIuuBxKwM-unsplash.jpg) no-repeat top center;
+    background-size: cover;
+}
+
+#second-box {
+    background: url(https://lfslc.sites.olt.ubc.ca/files/2022/09/dean-pugh-eNIAipH_Bcs-unsplash.jpg) no-repeat top center;
+    background-size: cover;
+}
+
+#third-box {
+    background: url(https://lfslc.sites.olt.ubc.ca/files/2022/09/zan-X_JsI_9Hl7o-unsplash-scaled.jpg) no-repeat top center;
+    background-size: cover;
+}
+
+#fourth-box {
+    background: url(https://lfslc.sites.olt.ubc.ca/files/2022/09/marten-bjork-rH8O0FHFpfw-unsplash-1.jpg) no-repeat top center;
+    background-size: cover;
+}
+
+.fb-button-back {
+    margin-top: 77%;
+    background: rgba(255, 255, 255, 0);
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fb-button {
+    background: rgba(255, 255, 255, 0);
+    border: none;
+    text-align: center;
+}
+
+.fb-hover {
+    background-color: #FFF;
+}
+
+.fb-hover:hover {
+    background-color: #ACD0E3;
+    transition: 0.5s;
 }
