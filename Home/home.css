@@ -19,7 +19,7 @@
     width: 45%;
     height: 25%;
     position: absolute;
-    opacity: 0.8; 
+    opacity: 0.8;
     top: 60%;
     left: 0%;
     z-index: 1;
@@ -43,9 +43,20 @@
 }
 
 #left-two-box {
-    background-color:cadetblue;
+    background-color: cadetblue;
 }
 
 #right-two-box {
     background-color: blueviolet;
+}
+
+.intro-text {
+    padding-left: 15px;
+    padding-top: 5px;
+    word-wrap: normal;
+}
+
+.text-center {
+    text-align: center;
+
 }
