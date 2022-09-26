@@ -1,23 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
-    <link rel="stylesheet" href="home.css">
+<link rel="stylesheet" href="home.css">
+<div id="intro-background">
+    <img src="https://lfslc.sites.olt.ubc.ca/files/2022/09/Frame-1.png" id="intro-picture">
+    <!-- make sure that picture is about 500px in height -->
+    <div id="intro-textbox">
+        <h1 class="intro-text intro-title">Welcome to the Learning Centre!</h1>
+        <p class="intro-text intro-sub">Support and resources for LFS Faculty and Staff to navigate the ever-changing
+            landscape of technology and teaching</p>
 
-    <div id="intro-background">
-        <img src="https://singlecolorimage.com/get/5896b1/1440x500" id="intro-picture">
-        <!-- make sure that picture is about 500px in height -->
-        <div id="intro-textbox">
-            <h1 id="">Welcome to the Learning Centre!</h1>
-            <p>
-                Support and resources for LFS Faculty and Staff to navigate the ever-changing landscape of technology and teaching
-            </p>
+    </div>
+</div>
+<div id="two-box-div" class="flex-container">
+    <div class="two-box" id="left-two-box">
+        <h3 class="text-center front-page-sub">We offer (consultations) and more, take a look at our service catalogue!
+        </h3>
+        <button class="tb-button" onclick="location.href='https://lc.landfood.ubc.ca/support/'">Learn More</button>
+
+    </div>
+    <div class="two-box-mid"></div>
+    <div class="two-box" id="right-two-box">
+        <h3 class="text-center front-page-sub">Have any questions or concerns?</h3>
+        <button class="tb-button" onclick="location.href='https://lc.landfood.ubc.ca/support/contact-us/'">Contact Us</button>
+
+    </div>
+</div>
+<div id="four-box-div" class="flex-container">
+    <div class="four-box zoom" id="first-box">
+        <div class="fb-hover">
+            <div class="fb-button-back">
+                <button class="fb-button" onclick="location.href='https://lc.landfood.ubc.ca/events/'">Events and Workshops</button>
+            </div>
         </div>
     </div>
-    <div id="two-box-div" class="flex-container">
-        <div class="two-box" id="left-two-box">
-            <p>left test.</p>
-        </div>
-        <div class="two-box" id="right-two-box">
-            <p>right test.</p>
+    <div class="fb-gap"></div>
+    <div class="four-box zoom" id="second-box">
+        <div class="fb-hover">
+            <div class="fb-button-back">
+                <button class="fb-button" onclick="location.href='https://lc.landfood.ubc.ca/booking-home/'">Tech and Gear Booking</button>
+            </div>
         </div>
     </div>
-</html>
+    <div class="fb-gap"></div>
+    <div class="four-box zoom" id="third-box">
+        <div class="fb-hover">
+            <div class="fb-button-back">
+                <button class="fb-button" onclick="">Tech Resources</button>
+            </div>
+        </div> 
+    </div>
+    <div class="fb-gap"></div>
+    <div class="four-box zoom" id="fourth-box">
+        <div class="fb-hover">
+            <div class="fb-button-back">
+                <button class="fb-button">Teaching Resources</button>
+            </div>
+        </div>
+    </div>
+</div>

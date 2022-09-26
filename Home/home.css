@@ -19,7 +19,7 @@
     width: 45%;
     height: 25%;
     position: absolute;
-    opacity: 0.8; 
+    opacity: 0.8;
     top: 60%;
     left: 0%;
     z-index: 1;
@@ -27,10 +27,9 @@
 
 #two-box-div {
     height: 300px;
-    background-color: aquamarine;
-    margin: auto;
     margin-top: 30px;
-    width: 96%;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .flex-container {
@@ -42,10 +41,32 @@
     width: 50%;
 }
 
+.two-box-mid {
+    padding: 15px;
+}
+
 #left-two-box {
-    background-color:cadetblue;
+    background-color: #5796B1;
 }
 
 #right-two-box {
-    background-color: blueviolet;
+    background-color: #5796B1;
+}
+
+.intro-text {
+    padding-left: 15px;
+    word-wrap: normal;
+}
+
+.intro-title {
+    padding-top: 4px;
+}
+
+.intro-sub {
+    padding-top: 4px;
+}
+
+.text-center {
+    text-align: center;
+
 }
