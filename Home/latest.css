@@ -34,12 +34,12 @@
 }
 
 #left-two-box {
-    background-image: linear-gradient(to top, rgba(23, 43, 56, 0.6), rgba(23, 43, 56, 0.7)), url(https://lfslc.sites.olt.ubc.ca/files/2022/09/christin-hume-Hcfwew744z4-unsplash.jpg);
+    background-image: linear-gradient(to top, rgba(23, 43, 56, 0.6), rgba(23, 43, 56, 0.6)), url(https://lfslc.sites.olt.ubc.ca/files/2022/09/christin-hume-Hcfwew744z4-unsplash.jpg);
     background-size: cover;
 }
 
 #right-two-box {
-    background-image: linear-gradient(to top, rgba(23, 43, 56, 0.6), rgba(23, 43, 56, 0.7)), url(https://lfslc.sites.olt.ubc.ca/files/2022/09/lauren-mancke-aOC7TSLb1o8-unsplash.jpg);
+    background-image: linear-gradient(to top, rgba(23, 43, 56, 0.6), rgba(23, 43, 56, 0.6)), url(https://lfslc.sites.olt.ubc.ca/files/2022/09/lauren-mancke-aOC7TSLb1o8-unsplash.jpg);
     background-size: cover;
 }
 
@@ -69,18 +69,37 @@
     background-color: rgba(23, 43, 56, 00.9);
 }
 
+#first-box {
+    background-image: linear-gradient(to top, rgba(23, 43, 56, 0.5), rgba(23, 43, 56, 0.5)), url(https://lfslc.sites.olt.ubc.ca/files/2022/09/Frame-3.jpg);
+    background-size: cover;
+}
+
+#second-box {
+    background-image: linear-gradient(to top, rgba(23, 43, 56, 0.5), rgba(23, 43, 56, 0.5)), url(https://lfslc.sites.olt.ubc.ca/files/2022/09/Frame-4.jpg);
+    background-size: cover;
+}
+
+#third-box {
+    background-image: linear-gradient(to top, rgba(23, 43, 56, 0.5), rgba(23, 43, 56, 0.5)), url(https://lfslc.sites.olt.ubc.ca/files/2022/09/Frame-5.jpg);
+    background-size: cover;
+}
+
+#fourth-box {
+    background-image: linear-gradient(to top, rgba(23, 43, 56, 0.5), rgba(23, 43, 56, 0.5)), url(https://lfslc.sites.olt.ubc.ca/files/2022/09/Frame-2.jpg);
+    background-size: cover;
+}
+
 /* IN PROGRESS */
 #four-box-div {
-    padding-top: 10px;
-    height: 300px;
+    padding-top: 20px;
+    height: 250px;
     display: grid;
     grid-template-columns: repeat(auto-fit, 24.25% 24.25% 24.25% 24.25%);
     column-gap: 1%;
 }
 
-.fb-image {
-    width: 94%;
-    padding-left: 3%;
+.front-page-fb {
+    padding-top: 4.75vw;
 }
 
 /* RESPONSIVE SIZING */
@@ -144,6 +163,23 @@
         margin-left: 44%;
         padding: 12px 20px;
     }
+
+    #four-box-div {
+        padding-top: 20px;
+        height: 250px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 24.25% 24.25% 24.25% 24.25%);
+        column-gap: 1%;
+    }
+
+    .front-page-fb {
+        padding-top: 5vw;
+    }
+
+    .four-box {
+        height: 250px;
+    }
+
 }
 
 @media screen and (max-width: 1600px) and (min-width: 1201px) {
@@ -201,6 +237,26 @@
         margin-top: 1.5%;
         margin-left: 44%;
         padding: 12px 20px;
+    }
+
+    #four-box-div {
+        padding-top: 20px;
+        height: 200px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 24.25% 24.25% 24.25% 24.25%);
+        column-gap: 1%;
+    }
+
+    .front-page-fb {
+        padding-top: 4vw;
+    }
+}
+
+/* FOR TEXT POSITIONING */
+
+@media screen and (max-width: 1400px) and (min-width: 1201px) {
+    .front-page-fb {
+        padding-top: 4.75vw;
     }
 }
 
@@ -263,6 +319,18 @@
         margin-left: 44%;
         padding: 12px 20px;
     }
+
+    #four-box-div {
+        padding-top: 20px;
+        height: 200px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 24.25% 24.25% 24.25% 24.25%);
+        column-gap: 1%;
+    }
+
+    .front-page-fb {
+        padding-top: 5vw;
+    }
 }
 
 @media screen and (max-width: 1100px) and (min-width: 1025px) {
@@ -320,6 +388,18 @@
         margin-top: 1.5%;
         margin-left: 44%;
         padding: 12px 20px;
+    }
+
+    #four-box-div {
+        padding-top: 20px;
+        height: 200px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 24.25% 24.25% 24.25% 24.25%);
+        column-gap: 1%;
+    }
+
+    .front-page-fb {
+        padding-top: 4.75vw;
     }
 }
 
@@ -382,6 +462,18 @@
         margin-left: 44%;
         padding: 12px 20px;
     }
+
+    #four-box-div {
+        padding-top: 20px;
+        height: 200px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 24.25% 24.25% 24.25% 24.25%);
+        column-gap: 1%;
+    }
+
+    .front-page-fb {
+        padding-top: 4.75vw;
+    }
 }
 
 @media screen and (max-width: 900px) and (min-width: 769px) {
@@ -439,6 +531,18 @@
         margin-top: 1.5%;
         margin-left: 35%;
         padding: 12px 20px;
+    }
+
+    #four-box-div {
+        padding-top: 20px;
+        height: 175px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 24.25% 24.25% 24.25% 24.25%);
+        column-gap: 1%;
+    }
+
+    .front-page-fb {
+        padding-top: 4.5vw;
     }
 }
 
@@ -502,6 +606,19 @@
         margin-left: 40%;
         padding: 12px 20px;
     }
+
+    #four-box-div {
+        padding-top: 10px;
+        height: 700px;
+        display: grid;
+        grid-template-columns: 100%;
+        row-gap: 10px;
+        column-gap: 1%;
+    }
+
+    .front-page-fb {
+        padding-top: 7.5vw;
+    }
 }
 
 @media screen and (max-width: 640px) and (min-width: 541px) {
@@ -561,6 +678,19 @@
         margin-left: 40%;
         padding: 12px 20px;
     }
+
+    #four-box-div {
+        padding-top: 10px;
+        height: 700px;
+        display: grid;
+        grid-template-columns: 100%;
+        row-gap: 10px;
+        column-gap: 1%;
+    }
+
+    .front-page-fb {
+        padding-top: 9.5vw;
+    }
 }
 
 @media screen and (max-width: 540px) and (min-width: 481px) {
@@ -619,6 +749,19 @@
         margin-top: 1.5%;
         margin-left: 40%;
         padding: 12px 20px;
+    }
+
+    #four-box-div {
+        padding-top: 10px;
+        height: 700px;
+        display: grid;
+        grid-template-columns: 100%;
+        row-gap: 10px;
+        column-gap: 1%;
+    }
+
+    .front-page-fb {
+        padding-top: 9vw;
     }
 }
 
@@ -680,6 +823,19 @@
         margin-left: 34%;
         padding: 12px 20px;
     }
+
+    #four-box-div {
+        padding-top: 10px;
+        height: 700px;
+        display: grid;
+        grid-template-columns: 100%;
+        row-gap: 10px;
+        column-gap: 1%;
+    }
+
+    .front-page-fb {
+        padding-top: 11vw;
+    }
 }
 
 @media screen and (max-width: 400px) and (min-width: 320px) {
@@ -736,6 +892,19 @@
         margin-top: 1.5%;
         margin-left: 32%;
         padding: 12px 20px;
+    }
+
+    #four-box-div {
+        padding-top: 10px;
+        height: 675px;
+        display: grid;
+        grid-template-columns: 100%;
+        row-gap: 10px;
+        column-gap: 1%;
+    }
+
+    .front-page-fb {
+        padding-top: 12vw;
     }
 
 }
