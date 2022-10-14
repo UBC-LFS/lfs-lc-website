@@ -1,20 +1,36 @@
+/* CUSTOM CSS FOR UPCOMING EVENTS CARD*/
 .text-center {
     text-align: center;
 }
 
 .four-card-div {
-    padding-top: 10px;
-    height: 250px;
+    padding-left: 100px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, 24.25% 24.25% 24.25% 24.25%);
-    column-gap: 1%;
+    grid-template-columns: repeat(auto-fit, 20% 20% 20% 20%);
+    column-gap: 3%;
 }
 
 .logo {
     max-width: 100%;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .four-card {
-    border: 2px solid red;
     border-radius: 20px;
+    height: 100%;
+    box-shadow: 5px 5px 5px darkgrey;
+    background-color: white;
+}
+
+.date {
+    padding-top: 0.2vw;
+    font-size: 0.75vw;
+}
+
+.topic {
+    font-size: 1.20vw;
+}
+
+.speaker {
+    font-size: 0.75vw;
 }
